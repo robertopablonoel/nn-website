@@ -5,6 +5,8 @@ import HeroSection from '../components/HeroSection';
 import MeetNeighbors from '../components/MeetNeighbors';
 import TheGames from '../components/TheGames';
 import Team from '../components/Team';
+import Faq from '../components/Faq';
+import Copyright from '../components/Copyright';
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => {
@@ -18,6 +20,8 @@ const Home = () => {
         <MeetNeighbors />
         <TheGames />
         <Team />
+        <Faq />
+        <Copyright />
         </>
     );
 };

@@ -9,7 +9,7 @@ const Team = () => {
   return (
       <>
 
-      <S.Container>
+      <S.Container name="team">
         <S.Title />
         <S.TeamWrapper>
           <S.Member>
@@ -31,7 +31,7 @@ const Team = () => {
             </p>
           </S.Member>
           <S.Member>
-            <S.MemberImage member={sohrob}/>
+            <S.MemberImage member={jeffrey}/>
             <h2>
                   GoSmokeAJeffrey 
             </h2>
@@ -40,12 +40,12 @@ const Team = () => {
             </p>
           </S.Member>
           <S.Member>
-            <S.MemberImage member={jeffrey}/>
+            <S.MemberImage member={sohrob}/>
             <h2>
-                  Sozzinald 
+                  Sozzinald
             </h2>
             <p>
-                  Biznis
+                  Community Manager
             </p>
           </S.Member>
         </S.TeamWrapper>

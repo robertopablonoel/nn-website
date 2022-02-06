@@ -9,13 +9,15 @@ S.Container = styled.div`
     align-items: center;
     flex-direction: column;
     padding: 0 10px;
-    margin-top: 50px;
     position: relative;
     z-index: 1;
+    @media screen and (max-width: 960px) {
+        margin-top: 25px;
+    }
 `
 
 S.Title = styled.div`
-    height: 350px;
+    padding-top: 13.3%;
     background-position: center;
     width: 80%;
     background-size: contain;
@@ -30,7 +32,6 @@ S.TeamWrapper = styled.div`
     width: 90%;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
 `
 
 S.Member = styled.div`
@@ -40,7 +41,7 @@ S.Member = styled.div`
     width: 200px;
     text-align: center;
     align-items: top;
-    margin:30px;
+    margin-left:30px;
     h2 {
         padding-top: 10px;
         font-size: 20px;

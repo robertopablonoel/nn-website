@@ -10,7 +10,7 @@ S.Nav = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -26,7 +26,6 @@ S.NavContainer = styled.div`
     height: 80px;
     z-index: 1;
     width: 100%;
-    padding: 0 24px;
     max-width: 1100px;
 `
 
@@ -34,7 +33,7 @@ S.NavLogo = styled(LinkR)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -50,9 +49,12 @@ S.Socials = styled.div`
         color: #fff;
         margin-left: 1rem;
         cursor: pointer;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: bold;
         text-decoration: none;
+        &:hover {
+            color: #9370db;
+        }
     }
 
     @media screen and (max-width: 960px) {
@@ -80,7 +82,7 @@ S.NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -22px;
+    margin-left: 144px;
 
     @media screen and (max-width: 768px) {
         display: none;

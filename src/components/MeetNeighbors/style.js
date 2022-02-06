@@ -11,13 +11,15 @@ S.Container = styled.div`
     align-items: center;
     flex-direction: column;
     padding: 0 10px;
-    margin-top: 150px;
     position: relative;
     z-index: 1;
+    @media screen and (max-width: 960px) {
+        margin-top: 75px;
+    }
 `
 
 S.Title = styled.div`
-    height: 350px;
+    padding-top: 13.3%;
     background-position: center;
     width: 80%;
     background-size: contain;

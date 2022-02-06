@@ -12,13 +12,13 @@ const MeetNeighbors = () => {
   return (
       <>
 
-      <S.Container>
+      <S.Container name="meet the neighbors">
           <S.Title />
           <S.NeighborWrapper>
               <S.Neighbor>
                 <S.NeighborImage neighbor={jealous}/>
                 <h2>
-                  Jealous Jimmy 
+                  Jealous Johny 
                 </h2>
                 <p>
                   watched all his friends buy Monkey Kingdom at 1 Sol, he still tweets NGMI
@@ -45,7 +45,7 @@ const MeetNeighbors = () => {
               <S.Neighbor>
                 <S.NeighborImage neighbor={lazy}/>
                 <h2>
-                  Lazy Lary
+                  Lazy Lenny
                 </h2>
                 <p>
                   just cant stop hitting snooze, he's permanently stuck in his own DMT-induced daze
@@ -66,7 +66,7 @@ const MeetNeighbors = () => {
                   Angry Andy
                 </h2>
                 <p>
-                  is in a blind rage, he just hit a honey pot with his brand new minting bot :/
+                  is in a blind rage, he just hit a honey pot with his brand new minting bot
                 </p>
               </S.Neighbor>
               <S.Neighbor>
@@ -75,7 +75,7 @@ const MeetNeighbors = () => {
                   Lustful Lucy
                 </h2>
                 <p>
-                  is the only thing all the other neighbors have in common ;)
+                  is the only thing all the other neighbors have in common 😜
                 </p>
               </S.Neighbor>
           </S.NeighborWrapper>
