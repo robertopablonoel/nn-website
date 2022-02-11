@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import gif from '../../images/GIF.gif';
 import title from '../../images/2nd_edition/meet_the_neighbors-1500.png'
 
 

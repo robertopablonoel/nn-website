@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import title from '../../images/2nd_edition/faq-1500.png'
-import circle from '../../images/circle.png'
 
 const S = {}
 
