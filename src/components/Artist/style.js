@@ -85,6 +85,7 @@ S.ArtistBody = styled.div`
     }
     @media screen and (max-width: 700px) {
         margin-top: -1.5em;
+        font-size: 17px;
     }
     @media screen and (max-width: 480px) {
         font-size: 15px;
