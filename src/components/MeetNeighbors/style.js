@@ -10,14 +10,15 @@ S.Container = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 70px;
     padding: 0 10px;
+    padding-top: 100px;
     position: relative;
     z-index: 1;
 `
 
 S.Title = styled.div`
     padding-top: 13.3%;
+    padding-bottom: 13.3%;
     height: 300px;
     background-position: center;
     width: 100%;
