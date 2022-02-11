@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import gif from '../../images/GIF.gif';
-import title from '../../images/naughty_neighbors.png'
-import title2 from '../../images/naughty_neighbors2.png'
+import title from '../../images/2nd_edition/naughty_neighbors-1500.png'
+import title2 from '../../images/2nd_edition/naughty_neighbors-1500-2.png'
 
 const S = {}
 
@@ -28,14 +28,24 @@ S.HeroGif = styled.div`
 S.HeroTitle = styled.div`
     padding-top: 13.3%;
     background-position: center;
-    width: 100%;
+    width: 80%;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(${title});
     z-index: 2;
-    @media screen and (max-width: 960px) {
-        background-image: url(${title2});
-        height: 300px;
+    @media screen and (max-width: 1000px) {
+      background-image: url(${title2});
+      height: 100px;
+      margin-bottom: 4%;
+      width: 60%;
+    }
+    @media screen and (max-width: 700px) {
+        width: 75%;
+    }
+    @media screen and (max-width: 480px) {
+        width: 90%;
+        margin-bottom: 8%;
+        margin-top: 5%;
     }
 `;
 
@@ -45,6 +55,16 @@ S.HeroBody = styled.div`
     font-size: 22px;
     color: #fff;
     text-align: center;
+    @media screen and (max-width: 1000px) {
+        font-size: 19px;
+      }
+      @media screen and (max-width: 700px) {
+        font-size: 17px;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 15px;
+        width: 87%;
+      }
 `;
 
 

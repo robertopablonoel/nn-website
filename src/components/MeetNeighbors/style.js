@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import gif from '../../images/GIF.gif';
-import title from '../../images/meet_the_neighbors.png'
+import title from '../../images/2nd_edition/meet_the_neighbors-1500.png'
 
 
 const S = {}
@@ -11,23 +11,30 @@ S.Container = styled.div`
     align-items: center;
     flex-direction: column;
     padding: 0 10px;
-    padding-top: 100px;
+    padding-top: 1em;
     position: relative;
     z-index: 1;
 `
 
 S.Title = styled.div`
     padding-top: 13.3%;
-    padding-bottom: 13.3%;
-    height: 300px;
+    margin-top: 6%;
+    margin-bottom: 4%;
     background-position: center;
-    width: 100%;
+    width: 50%;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(${title});
     z-index: 2;
-    @media screen and (max-width: 960px) {
-        height: 200px;
+    @media screen and (max-width: 1000px) {
+        height: 100px;
+        width: 60%;
+    }
+    @media screen and (max-width: 700px) {
+        width: 75%;
+    }
+    @media screen and (max-width: 480px) {
+        width: 90%;
     }
 `;
 
