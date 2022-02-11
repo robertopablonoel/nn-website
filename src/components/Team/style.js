@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import title from '../../images/team.png'
+import title from '../../images/2nd_edition/team-1500.png'
 
 const S = {}
 
@@ -9,7 +9,7 @@ S.Container = styled.div`
     align-items: center;
     flex-direction: column;
     padding: 0 10px;
-    padding-top: 100px;
+    padding-top: 50px;
     position: relative;
     z-index: 1;
     @media screen and (max-width: 960px) {
@@ -19,14 +19,23 @@ S.Container = styled.div`
 
 S.Title = styled.div`
     padding-top: 13.3%;
-    padding-bottom: 13.3%;
+    margin-bottom: 4%;
     background-position: center;
-    height: 10px;
-    width: 45%;
+    height: 100px;
+    width: 50%;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(${title});
     z-index: 2;
+    @media screen and (max-width: 1000px) {
+        width: 60%;
+    }
+    @media screen and (max-width: 700px) {
+        width: 75%;
+    }
+    @media screen and (max-width: 480px) {
+        width: 90%;
+    }
 `;
 
 S.TeamWrapper = styled.div`
@@ -44,7 +53,7 @@ S.Member = styled.div`
     width: 200px;
     text-align: center;
     align-items: top;
-    margin-left:30px;
+    margin:0px 30px;
     h2 {
         padding-top: 10px;
         font-size: 20px;
