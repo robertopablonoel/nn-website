@@ -16,11 +16,6 @@ const Navbar = ({ toggle }) => {
                         </S.NavLinks>
                     </S.NavItem>
                     <S.NavItem>
-                        <S.NavLinks to="the games" activeClass="active" smooth={true} duration={500}>
-                            the games
-                        </S.NavLinks>
-                    </S.NavItem>
-                    <S.NavItem>
                         <S.NavLinks to="team"  activeClass="active" smooth={true} duration={500}>
                             team
                         </S.NavLinks>

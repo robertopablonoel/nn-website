@@ -9,6 +9,7 @@ S.Container = styled.div`
     align-items: center;
     flex-direction: column;
     padding: 0 10px;
+    margin-top: 80px;
     position: relative;
     z-index: 1;
     @media screen and (max-width: 960px) {
@@ -19,7 +20,7 @@ S.Container = styled.div`
 S.Title = styled.div`
     padding-top: 13.3%;
     background-position: center;
-    width: 80%;
+    width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(${title});

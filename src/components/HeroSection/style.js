@@ -28,13 +28,14 @@ S.HeroGif = styled.div`
 S.HeroTitle = styled.div`
     padding-top: 13.3%;
     background-position: center;
-    width: 80%;
+    width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(${title});
     z-index: 2;
     @media screen and (max-width: 960px) {
         background-image: url(${title2});
+        height: 300px;
     }
 `;
 

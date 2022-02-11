@@ -18,7 +18,6 @@ const Home = () => {
         <Navbar toggle={toggle}/>
         <HeroSection />
         <MeetNeighbors />
-        <TheGames />
         <Team />
         <Faq />
         <Copyright />

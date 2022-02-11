@@ -10,22 +10,24 @@ S.Container = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 70px;
     padding: 0 10px;
     position: relative;
     z-index: 1;
-    @media screen and (max-width: 960px) {
-        margin-top: 75px;
-    }
 `
 
 S.Title = styled.div`
     padding-top: 13.3%;
+    height: 300px;
     background-position: center;
-    width: 80%;
+    width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(${title});
     z-index: 2;
+    @media screen and (max-width: 960px) {
+        height: 200px;
+    }
 `;
 
 S.NeighborWrapper = styled.div`
