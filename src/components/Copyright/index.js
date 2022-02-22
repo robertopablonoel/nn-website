@@ -12,7 +12,7 @@ const Copyright = () => {
                         Copyright 2022, Naughty Neighbors
                   </h2>
                   <p>
-                        Built on the Solana blockchain
+                        Built on the Ethereum blockchain
                   </p>
             </S.CopyText>
         
