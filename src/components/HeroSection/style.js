@@ -58,13 +58,13 @@ S.HeroBody = styled.div`
     @media screen and (max-width: 1000px) {
         font-size: 19px;
       }
-      @media screen and (max-width: 700px) {
-        font-size: 17px;
-      }
-      @media screen and (max-width: 480px) {
-        font-size: 15px;
-        width: 87%;
-      }
+    @media screen and (max-width: 700px) {
+    font-size: 17px;
+    }
+    @media screen and (max-width: 480px) {
+    font-size: 15px;
+    width: 87%;
+    }
 `;
 
 
