@@ -23,9 +23,9 @@ const index = ({isOpen, toggle}) => {
               </S.SidebarLink>
           </S.SidebarMenu>
           <S.Socials>
-              <a href="https://twitter.com/nottyneighbors"><FaTwitter/></a>
+              <a href="https://twitter.com/TheNeighborsDao"><FaTwitter/></a>
               <a href="https://discord.gg/BQxj28SVFY"><FaDiscord /></a>
-              <a href="https://www.instagram.com/naughtyneighbors.sol/"><FaInstagram /></a>
+              <a href="https://www.instagram.com/naughtyneighbors.eth/"><FaInstagram /></a>
           </S.Socials>
       </S.SidebarWrapper>
   </S.SidebarContainer>);

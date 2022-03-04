@@ -16,10 +16,11 @@ const Faq = () => {
               <S.BulletImage shape={circle}/>
               <S.BulletText>
                     <h2>
-                        Wen Mint?
+                        What is The Neighborhood?
                     </h2>
                     <p>
-                        There will be exactly 4269 released in total, the public sale will take place on XXXXX at XXX PST | XXX UTC. Early Settlers will be able to mint XXXXX at XXX PST | XXX UTC
+                        We believe there’s no reason a Neighborhood should have physical boundaries. Our core team members are located across Hong Kong, New York, and Miami. 
+                        The Neighborhood will bridge the physical gap between these three temporal hubs of the decentralized world.
                     </p>
               </S.BulletText>
         </S.Bullet>
@@ -27,36 +28,44 @@ const Faq = () => {
               <S.BulletImage shape={rectangle}/>
               <S.BulletText>
                     <h2>
-                      Price Plz?
+                      How will we do this?
                     </h2>
-                    <p>
-                      1 SOL for public mint.
-                    </p>
+                    <ul>
+                      <li> Concurrent pop up events and experiences along the Neighborhood circuit. </li>
+                      <li> Integration with landmark institutions. </li>
+                      <li> Community building through on and off chain collaborative games and communication channels. </li>
+                    </ul>
               </S.BulletText>
         </S.Bullet>
         <S.Bullet>
               <S.BulletImage shape={triangle}/>
               <S.BulletText>
                     <h2>
-                      What is SOL?
+                      Where will the funds go?
                     </h2>
-                    <p>
-                      Solana (SOL) is a blazing fast blockchain with virtually no transaction fees. Transfers in seconds, not hours.
-                    </p>
+                    <ul>
+                      <li> 75% of the mint proceeds and 50% of royalties will go to a community chest owned by The Naughty Neighbors. </li>
+                      <li> The rest will be split between charity and operational costs. </li>
+                      <li> Neighbors will vote on the usage of the community funds through our on-chain Town Hall. </li>
+                    </ul>
               </S.BulletText>
         </S.Bullet>
         <S.Bullet>
               <S.BulletImage shape={star}/>
               <S.BulletText>
                     <h2>
-                      How Do I Mint? 
+                      Ok, where can I buy one?
                     </h2>
-                    <p>
-                      Get yourself some SOL from a trusted exchange (FTX, Coinbase, Binance). You’ll need slightly more than 1 SOL to cover the transaction cost (usually less than a penny). Set up an in browser wallet extension, we recommend Phantom. Send that precious SOL to your wallet you’re all set for mint day!
-                    </p>
+                    <ul>
+                      <li> Purchase ETH (Ethereum) through a trusted exchange (Binance, Coinbase, FTX etc.) </li>
+                      <li> Download the <a link="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en">Metamask</a> browser extension, and send yourself some ETH </li>
+                      <li> Once the project goes live, you will be able to purchase a Neighbor through our website by clicking the “mint” button and signing the prompted transaction. </li>
+                      <li> Whitelist holders will get early access to this functionality. </li>
+                      <li> We will announce the mint date in the coming weeks, stay tuned to our <a link="https://twitter.com/TheNeighborsDao">twitter</a> for updates on whitelisting! </li>
+                    </ul>
               </S.BulletText>
         </S.Bullet>
-        <S.Bullet>
+        {/* <S.Bullet>
               <S.BulletImage shape={romb}/>
               <S.BulletText>
                     <h2>
@@ -66,7 +75,7 @@ const Faq = () => {
                       There is no roadmap. There are also no gimmicks, false promises, or rugs (there are plenty of those on the market already). We're all about the art, the games, and the good vibes. Our community will be grown through actions, not words!
                     </p>
               </S.BulletText>
-        </S.Bullet>
+        </S.Bullet> */}
       </S.Container>
       
       </>

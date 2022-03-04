@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90805fa9.css",
+    "main.js": "/static/js/main.c84bc5c9.js",
+    "static/media/GIF.gif": "/static/media/GIF.380aa431867f42cfda5c.gif",
+    "static/media/naughty_neighbors-1500.png": "/static/media/naughty_neighbors-1500.c894f6091ab96b25b154.png",
+    "static/media/meet_the_neighbors-1500.png": "/static/media/meet_the_neighbors-1500.aa1128863474160ea713.png",
+    "static/media/naughty_neighbors-1500-2.png": "/static/media/naughty_neighbors-1500-2.02a8afb940e4fb685156.png",
+    "static/media/monster1.png": "/static/media/monster1.73c654b9d9e1a5148f8f.png",
+    "static/media/artist-1500.png": "/static/media/artist-1500.d5170ef8c2296e0f383e.png",
+    "static/media/proud.png": "/static/media/proud.14571685b4e1aa2d4c10.png",
+    "static/media/lazy.png": "/static/media/lazy.53b2f6d2e07495355375.png",
+    "static/media/lust.png": "/static/media/lust.1a39ada391c1e1b5634c.png",
+    "static/media/angry.png": "/static/media/angry.80eb60524b7ece56527e.png",
+    "static/media/sohrob.png": "/static/media/sohrob.7a3110d4ef6e73824634.png",
+    "static/media/elena.png": "/static/media/elena.6cf2e4692d4de18d1ca7.png",
+    "static/media/jealous.png": "/static/media/jealous.f1b6f86f2fad5c20bc88.png",
+    "static/media/gluttonous.png": "/static/media/gluttonous.936477d5688b5fea8b7a.png",
+    "static/media/roberto.png": "/static/media/roberto.9ec1ffca36688806d8b4.png",
+    "static/media/team-1500.png": "/static/media/team-1500.7ea44bd2ccdc1c60f47b.png",
+    "static/media/jeffrey.png": "/static/media/jeffrey.34c3943619444da12670.png",
+    "static/media/greedy.png": "/static/media/greedy.653c8e016a5da16e47bb.png",
+    "static/media/faq-1500.png": "/static/media/faq-1500.2d47aca4fe39435a2d39.png",
+    "static/media/monster3.png": "/static/media/monster3.9909fcd8d75b6ea2c78c.png",
+    "static/media/monster2.png": "/static/media/monster2.948527f88b3abab0da81.png",
+    "static/media/neighbor.png": "/static/media/neighbor.4fdddc2668e2b08b66ac.png",
+    "index.html": "/index.html",
+    "main.90805fa9.css.map": "/static/css/main.90805fa9.css.map",
+    "main.c84bc5c9.js.map": "/static/js/main.c84bc5c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90805fa9.css",
+    "static/js/main.c84bc5c9.js"
+  ]
+}

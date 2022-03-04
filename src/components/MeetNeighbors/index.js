@@ -16,42 +16,6 @@ const MeetNeighbors = () => {
           <S.Title />
           <S.NeighborWrapper>
               <S.Neighbor>
-                <S.NeighborImage neighbor={jealous}/>
-                <h2>
-                  Jealous Johny 
-                </h2>
-                <p>
-                  watched all his friends buy Monkey Kingdom at 1 Sol, he still tweets NGMI
-                </p>
-              </S.Neighbor>
-              <S.Neighbor>
-                <S.NeighborImage neighbor={proud}/>
-                <h2>
-                  Proud Peter 
-                </h2>
-                <p>
-                  flaunts his Boryoku Dragon all across the metaverse, this really pisses Jimmy off
-                </p>
-              </S.Neighbor>
-              <S.Neighbor>
-                <S.NeighborImage neighbor={gluttonous}/>
-                <h2>
-                  Gluttonous Gerald
-                </h2>
-                <p>
-                  is eating his feelings after getting roasted on the Discord, this is a normal Friday night for him
-                </p>
-              </S.Neighbor>
-              <S.Neighbor>
-                <S.NeighborImage neighbor={lazy}/>
-                <h2>
-                  Lazy Lenny
-                </h2>
-                <p>
-                  just cant stop hitting snooze, he's permanently stuck in his own DMT-induced daze
-                </p>
-              </S.Neighbor>
-              <S.Neighbor>
                 <S.NeighborImage neighbor={greedy}/>
                 <h2>
                   Greedy Gary
@@ -70,12 +34,48 @@ const MeetNeighbors = () => {
                 </p>
               </S.Neighbor>
               <S.Neighbor>
+                <S.NeighborImage neighbor={gluttonous}/>
+                <h2>
+                  Hungry Harry
+                </h2>
+                <p>
+                  Gluttony was never so glamorous – or potassium packed.
+                </p>
+              </S.Neighbor>
+              <S.Neighbor>
+                <S.NeighborImage neighbor={lazy}/>
+                <h2>
+                  Lazy Lenny
+                </h2>
+                <p>
+                  just cant stop hitting snooze, he's permanently stuck in his own DMT-induced daze
+                </p>
+              </S.Neighbor>
+              <S.Neighbor>
+                <S.NeighborImage neighbor={jealous}/>
+                <h2>
+                  Jealous Jenny 
+                </h2>
+                <p>
+                  FUDs from the mouth, covets from the heart
+                </p>
+              </S.Neighbor>
+              <S.Neighbor>
+                <S.NeighborImage neighbor={proud}/>
+                <h2>
+                  Proud Penny
+                </h2>
+                <p>
+                  stone cold flexer, the self-proclaimed queen of the metaverse
+                </p>
+              </S.Neighbor>
+              <S.Neighbor>
                 <S.NeighborImage neighbor={lust}/>
                 <h2>
                   Lustful Lucy
                 </h2>
                 <p>
-                  is the only thing all the other neighbors have in common 😜
+                  the only thing all the other neighbors have in common 😜
                 </p>
               </S.Neighbor>
           </S.NeighborWrapper>

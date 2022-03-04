@@ -43,11 +43,6 @@ const Artist = () => {
       </S.Monster>
       </S.MonsterWrapper>
       <S.ArtistBody>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula 
-            purus in neque ultrices, eu ullamcorper augue laoreet. Donec mi nunc, 
-            pharetra vel risus non, hendrerit vulputate tellus. In in nunc at odio pulvinar 
-            faucibus. In a lobortis felis. Nullam justo nisl, feugiat vel vestibulum ac, 
-            interdum quis mi. Integer in diam vel nunc mattis gravida non in felis.
       </S.ArtistBody>
       </S.Container>
       </>

@@ -12,25 +12,30 @@ const Navbar = ({ toggle }) => {
                 <S.NavMenu>
                     <S.NavItem>
                         <S.NavLinks to="meet the neighbors"  activeClass="active" smooth={true} duration={500}>
-                            meet the neighbors
+                            Meet the Neighbors
                         </S.NavLinks>
                     </S.NavItem>
                     <S.NavItem>
-                        <S.NavLinks to="team"  activeClass="active" smooth={true} duration={500}>
-                            team
+                        <S.NavLinks to="artist" activeClass="active" smooth={true} duration={500}>
+                            Artist
                         </S.NavLinks>
                     </S.NavItem>
                     <S.NavItem>
                         <S.NavLinks to="faq" activeClass="active" smooth={true} duration={500}>
-                            faq
+                            FAQ
                         </S.NavLinks>
                     </S.NavItem>
+                    {/* <S.NavItem>
+                        <S.NavLinks to="team"  activeClass="active" smooth={true} duration={500}>
+                            team
+                        </S.NavLinks>
+                    </S.NavItem> */}
                 </S.NavMenu>
             </S.NavContainer>
             <S.Socials>
-                <a href="https://twitter.com/nottyneighbors"><FaTwitter/></a>
+                <a href="https://twitter.com/thenaughtynbrs"><FaTwitter/></a>
                 <a href="https://discord.gg/BQxj28SVFY"><FaDiscord /></a>
-                <a href="https://www.instagram.com/naughtyneighbors.sol/"><FaInstagram /></a>
+                <a href="https://www.instagram.com/naughtyneighbors.eth/"><FaInstagram /></a>
             </S.Socials>
         </S.Nav>
       </>
