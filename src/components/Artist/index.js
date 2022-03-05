@@ -44,7 +44,7 @@ const Artist = () => {
       </S.MonsterWrapper>
       <S.ArtistBody>
       <S.Text>
-            Elena Bastyte was born the first triplet of independent Lithuania. She and her <a href="https://www.instagram.com/tripletsisters/">sisters</a> grew up in Užupis, the art district of Vilnius, where she began art school at the age of twelve. One year into her practice, she drew the first Naughty Neighbor. This extra-dimensional being lived in her notebook for nine more years, while she graduated art school and began studying at the University of Berlin. Now she’s ready to give these beings life.
+            Elena Bastyte was born the first triplet of independent Lithuania. She and her sisters grew up in Užupis, the art district of Vilnius, where she began art school at the age of twelve. One year into her practice, she drew the first Naughty Neighbor. This extra-dimensional being lived in her notebook for nine more years, while she graduated art school and began studying at the University of Berlin. Now she’s ready to give these little monsters life.
             <br/>
             <br/>
             <b>~</b>

@@ -38,10 +38,21 @@ const Faq = () => {
                     <br/>
                     <ul>
                       <li> <b style={{ color: '#fee57f' }}>Egg:</b> On mint, holders will receive a beautiful, baby neighbor with one or two super active meta volcanoes.  </li>
-                      <li> <b style={{ color: '#80d8fe' }}>Larvae:</b> Mother Neighbor Elena casts an naughtilus animiticus spell on her babies and the meta volcanoes come to life as GIFs. </li>
+                      <li> <b style={{ color: '#80d8fe' }}>Larvae:</b> Mother Neighbor Elena casts a naughtilus animiticus spell on her babies and the meta volcanoes come to life as GIFs. </li>
                       <li> <b style={{ color: '#b389fe' }}>Pupa:</b> The Neighbors are granted the keys to the hottest digital cribs on the market. Think club penguin, but for the moon one of New York, Hong Kong, and Miami. </li>
                       <li> <b style={{ color: '#ff98d5' }}>Bug:</b> The Intra-dimensional Cocoon Hatches </li>
                     </ul>
+              </S.BulletText>
+        </S.Bullet>
+        <S.Bullet>
+              <S.BulletImage shape={star}/>
+              <S.BulletText>
+                    <h2>
+                      What if you're not from these three cities?
+                    </h2>
+                    <p>
+                      ~ You can be a part of it, just don't be weird about it. ~
+                    </p>
               </S.BulletText>
         </S.Bullet>
         <S.Bullet>
@@ -58,7 +69,7 @@ const Faq = () => {
               </S.BulletText>
         </S.Bullet>
         <S.Bullet>
-              <S.BulletImage shape={star}/>
+              <S.BulletImage shape={circle}/>
               <S.BulletText>
                     <h2>
                       Ok, where can I buy one?
@@ -72,17 +83,6 @@ const Faq = () => {
                     </ul>
               </S.BulletText>
         </S.Bullet>
-        {/* <S.Bullet>
-              <S.BulletImage shape={romb}/>
-              <S.BulletText>
-                    <h2>
-                      Where's the roadmap?
-                    </h2>
-                    <p>
-                      There is no roadmap. There are also no gimmicks, false promises, or rugs (there are plenty of those on the market already). We're all about the art, the games, and the good vibes. Our community will be grown through actions, not words!
-                    </p>
-              </S.BulletText>
-        </S.Bullet> */}
       </S.Container>
       
       </>

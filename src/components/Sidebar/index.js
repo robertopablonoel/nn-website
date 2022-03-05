@@ -12,11 +12,8 @@ const index = ({isOpen, toggle}) => {
               <S.SidebarLink onClick={toggle} to="meet the neighbors" smooth={true} duration={500}>
                 meet the neighbors
               </S.SidebarLink>
-              <S.SidebarLink onClick={toggle} to="the games" smooth={true} duration={500}> 
-                the games
-              </S.SidebarLink>
-              <S.SidebarLink onClick={toggle} to="team" smooth={true} duration={500}>
-                team
+              <S.SidebarLink onClick={toggle} to="artist" smooth={true} duration={500}> 
+                artist
               </S.SidebarLink>
               <S.SidebarLink onClick={toggle} to="faq" smooth={true} duration={500}>
                 faq
