@@ -62,14 +62,21 @@ S.BulletImage =  styled.div`
 S.BulletText = styled.div`
     grid-column-start: 2;
     grid-column-end: 2;
+    line-height: 1.3;
     h2 {
-        font-size: 20px;
+        font-size: 25px;
         color: white;
+        padding-bottom: 7px;
     }
     p {
         width:100%;
-        font-size: 15px;
+        font-size: 18px;
         color: white;
+    }
+    ul {
+        width:100%;
+        padding-left: 20;
+        font-size: 18px;
     }
     
 `

@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
                 </S.NavMenu>
             </S.NavContainer>
             <S.Socials>
-                <a href="https://twitter.com/thenaughtynbrs"><FaTwitter/></a>
+                <a href="https://twitter.com/naughtyamigos"><FaTwitter/></a>
                 <a href="https://discord.gg/BQxj28SVFY"><FaDiscord /></a>
                 <a href="https://www.instagram.com/naughtyneighbors.eth/"><FaInstagram /></a>
             </S.Socials>

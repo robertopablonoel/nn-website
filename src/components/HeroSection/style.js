@@ -55,6 +55,7 @@ S.HeroBody = styled.div`
     font-size: 22px;
     color: #fff;
     text-align: center;
+    margin-bottom: 100px;
     @media screen and (max-width: 1000px) {
         font-size: 19px;
       }

@@ -19,8 +19,10 @@ const Faq = () => {
                         What is The Neighborhood?
                     </h2>
                     <p>
-                        We believe there’s no reason a Neighborhood should have physical boundaries. Our core team members are located across Hong Kong, New York, and Miami. 
-                        The Neighborhood will bridge the physical gap between these three temporal hubs of the decentralized world.
+                      The Neighborhood will span the cities of New York, Hong Kong, and Miami. It will bridge the physical gap between these web3 powerhouses.
+                    </p>
+                    <p>
+                      On move in day, holders will be granted the keys to their new cribs, where they can host other Neighbors, show off their art, and bool. Think twitter spaces, but in your digital living quarters.
                     </p>
               </S.BulletText>
         </S.Bullet>
@@ -30,10 +32,15 @@ const Faq = () => {
                     <h2>
                       How will we do this?
                     </h2>
+                    <p>
+                    The project will be broken into four phases, following the evolution of the Neighbors: Egg, Larvae, Pupa, and Bug.
+                    </p>
+                    <br/>
                     <ul>
-                      <li> Concurrent pop up events and experiences along the Neighborhood circuit. </li>
-                      <li> Integration with landmark institutions. </li>
-                      <li> Community building through on and off chain collaborative games and communication channels. </li>
+                      <li> <b style={{ color: '#fee57f' }}>Egg:</b> On mint, holders will receive a beautiful, baby neighbor with one or two super active meta volcanoes.  </li>
+                      <li> <b style={{ color: '#80d8fe' }}>Larvae:</b> Mother Neighbor Elena casts an naughtilus animiticus spell on her babies and the meta volcanoes come to life as GIFs. </li>
+                      <li> <b style={{ color: '#b389fe' }}>Pupa:</b> The Neighbors are granted the keys to the hottest digital cribs on the market. Think club penguin, but for the moon one of New York, Hong Kong, and Miami. </li>
+                      <li> <b style={{ color: '#ff98d5' }}>Bug:</b> The Intra-dimensional Cocoon Hatches </li>
                     </ul>
               </S.BulletText>
         </S.Bullet>
@@ -41,12 +48,12 @@ const Faq = () => {
               <S.BulletImage shape={triangle}/>
               <S.BulletText>
                     <h2>
-                      Where will the funds go?
+                    Where will the funds go?
                     </h2>
                     <ul>
-                      <li> 75% of the mint proceeds and 50% of royalties will go to a community chest owned by The Naughty Neighbors. </li>
-                      <li> The rest will be split between charity and operational costs. </li>
-                      <li> Neighbors will vote on the usage of the community funds through our on-chain Town Hall. </li>
+                      <li> 100% of the mint proceeds and 50% of royalties will go to a community chest. </li>
+                      <li> Neighbors will vote on the usage of the funds through our on-chain Town Hall. </li>
+                      <li> As a community, we will build a digital Neighborhood, bringing together the web3 capitals of the world. </li>
                     </ul>
               </S.BulletText>
         </S.Bullet>

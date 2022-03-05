@@ -21,7 +21,7 @@ const MeetNeighbors = () => {
                   Greedy Gary
                 </h2>
                 <p>
-                  is spending all his money on lottery tickets, maybe one day he’ll hit 🤑
+                  Life is the ultimate wager, but Gary will do anything for a buck.
                 </p>
               </S.Neighbor>
               <S.Neighbor>
@@ -30,7 +30,9 @@ const MeetNeighbors = () => {
                   Angry Andy
                 </h2>
                 <p>
-                  is in a blind rage, he just hit a honey pot with his brand new minting bot
+                  Ooogha bugha
+                  <br/>
+                  ¡Fuck you!
                 </p>
               </S.Neighbor>
               <S.Neighbor>
@@ -48,7 +50,9 @@ const MeetNeighbors = () => {
                   Lazy Lenny
                 </h2>
                 <p>
-                  just cant stop hitting snooze, he's permanently stuck in his own DMT-induced daze
+                Slug of Slugs & Sloth of Sloths
+                <br/>
+                <i>In action</i>
                 </p>
               </S.Neighbor>
               <S.Neighbor>
@@ -57,7 +61,7 @@ const MeetNeighbors = () => {
                   Jealous Jenny 
                 </h2>
                 <p>
-                  FUDs from the mouth, covets from the heart
+                  呷醋，妒忌
                 </p>
               </S.Neighbor>
               <S.Neighbor>
@@ -66,7 +70,7 @@ const MeetNeighbors = () => {
                   Proud Penny
                 </h2>
                 <p>
-                  stone cold flexer, the self-proclaimed queen of the metaverse
+                ✨Fragile in Fortitude, but Shining✨
                 </p>
               </S.Neighbor>
               <S.Neighbor>
@@ -75,7 +79,7 @@ const MeetNeighbors = () => {
                   Lustful Lucy
                 </h2>
                 <p>
-                  the only thing all the other neighbors have in common 😜
+                  Horny singles near you! 
                 </p>
               </S.Neighbor>
           </S.NeighborWrapper>

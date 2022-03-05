@@ -40,9 +40,13 @@ S.Title = styled.div`
 S.NeighborWrapper = styled.div`
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 1300px;
     flex-wrap: wrap;
     justify-content: center;
+
+    @media screen and (max-width: 1000px) {
+        width: 90%;
+    }
 `
 
 S.Neighbor = styled.div`
@@ -53,14 +57,15 @@ S.Neighbor = styled.div`
     text-align: center;
     align-items: top;
     margin:10px;
+    line-height: 1.3;
     h2 {
         padding-top: 10px;
-        font-size: 20px;
+        font-size: 22px;
         color: white;
     }
     p {
         width:100%;
-        font-size: 15px;
+        font-size: 16px;
         color: white;
     }
 `
